@@ -48,6 +48,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#known-issues">Known Issues</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -141,6 +142,12 @@ Don't forget to give the project a star! Thanks again!
 <a href="https://github.com/luv-mirinae/im-flos-frontend/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=luv-mirinae/im-flos-frontend" alt="contrib.rocks image" />
 </a>
+
+<!-- Known Issues -->
+
+## Known Issues
+
+After deploying to Cloudflare Pages, I'm encountering an issue where a 'Network Unleachable' error is displayed and the page continuously refreshes.
 
 <!-- LICENSE -->
 

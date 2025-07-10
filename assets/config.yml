@@ -1,0 +1,119 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/search for icons options
+
+title: "Dashboard"
+subtitle: "flos.im"
+logo: "logo.png"
+
+header: true
+footer: "<p>&copy; 2025 Mirinae</p>"
+
+columns: 3
+connectivityCheck: true
+
+defaults:
+  # columns, list
+  layout: columns
+  # auto, light, dark
+  colorTheme: auto
+
+theme: default
+colors:
+  light:
+    highlight-primary: rgb(90, 175, 180)
+    highlight-secondary: rgb(95, 184, 189)
+    highlight-hover: rgb(146, 194, 199)
+    background: rgb(245, 245, 245)
+    card-background: rgb(255, 255, 255)
+    text: rgb(54, 54, 54)
+    text-header: rgb(255, 255, 255)
+    text-title: rgb(48, 48, 48)
+    text-subtitle: rgb(66, 66, 66)
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: rgb(75, 175, 175)
+    link-hover: rgb(188, 226, 232)
+  dark:
+    highlight-primary: rgb(50, 94, 100)
+    highlight-secondary: rgb(66, 102, 105)
+    highlight-hover: rgb(81, 107, 110)
+    background: rgb(19, 19, 19)
+    card-background: rgb(43, 43, 43)
+    text: rgb(234, 234, 234)
+    text-header: rgb(255, 255, 255)
+    text-title: rgb(250, 250, 250)
+    text-subtitle: rgb(245, 245, 245)
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: rgb(45, 96, 96)
+    link-hover: rgb(94, 113, 116)
+
+# message:
+#   style: "is-dark"
+#   content: "Welcome!"
+
+links:
+  - name: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/luv-mirinae/im-flos"
+    target: "_blank"
+  - name: "Mail"
+    icon: "fas fa-envelope"
+    url: "mailto:mirinae@flos.im"
+
+services:
+  - name: "Subpages"
+    icon: "fas fa-heart"
+    items:
+      - name: "Introduce"
+        icon: "fa-solid fa-user-tie"
+        subtitle: "my.flos.im"
+        tag: "myself"
+        url: "https://my.flos.im"
+        target: "_blank"
+      - name: "Blog"
+        icon: "fa-solid fa-blog"
+        subtitle: "blog.flos.im"
+        tag: "blog"
+        url: "https://blog.flos.im"
+        target: "_blank"
+      - name: "Develop"
+        icon: "fa-solid fa-code"
+        subtitle: "dev.flos.im"
+        tag: "dev. blog"
+        url: "https://dev.flos.im"
+        target: "_blank"
+  - name: "Other pages"
+    icon: "fas fa-paper-plane"
+    items:
+      - name: "API"
+        icon: "fa-solid fa-terminal"
+        subtitle: "api.flos.live"
+        tag: "api"
+        url: "https://api.flos.live"
+        target: "_blank"
+      - name: "Gallery"
+        icon: "fa-solid fa-image"
+        subtitle: "photo.flos.live"
+        tag: "photo"
+        url: "https://photo.flos.live"
+        target: "_blank"
+      - name: "Sekai"
+        icon: "fa-solid fa-music"
+        subtitle: "sekai.flos.live"
+        tag: "pjsk"
+        url: "https://sekai.flos.live"
+        target: "_blank"
+  - name: "Link"
+    icon: "fas fa-link"
+    items:
+      - name: "GitHub"
+        icon: "fa-solid fa-code-branch"
+        subtitle: "luv-mirinae"
+        tag: "github"
+        url: "https://github.com/luv-mirinae"
+        target: "_blank"
+      - name: "Mail"
+        icon: "fa-solid fa-envelope"
+        subtitle: "mirinae@flos.im"
+        tag: "mail"
+        url: "mailto:mirinae@flos.im"
