@@ -54,7 +54,7 @@ colors:
 links:
   - name: "GitHub"
     icon: "fab fa-github"
-    url: "https://github.com/luv-mirinae/im-flos"
+    url: "https://github.com/luv-mirinae/im-flos-frontend"
     target: "_blank"
   - name: "Mail"
     icon: "fas fa-envelope"
