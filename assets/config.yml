@@ -14,7 +14,7 @@ connectivityCheck: true
 
 defaults:
   # columns, list
-  layout: columns
+  layout: list
   # auto, light, dark
   colorTheme: auto
 
