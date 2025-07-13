@@ -65,21 +65,18 @@ services:
     icon: "fas fa-heart"
     items:
       - name: "Introduce"
-        type: Ping
         icon: "fa-solid fa-user-tie"
         subtitle: "my.flos.im"
         tag: "myself"
         url: "https://my.flos.im"
         target: "_blank"
       - name: "Blog"
-        type: Ping
         icon: "fa-solid fa-blog"
         subtitle: "blog.flos.im"
         tag: "blog"
         url: "https://blog.flos.im"
         target: "_blank"
       - name: "Develop"
-        type: Ping
         icon: "fa-solid fa-code"
         subtitle: "dev.flos.im"
         tag: "dev. blog"
@@ -89,21 +86,18 @@ services:
     icon: "fas fa-paper-plane"
     items:
       - name: "API"
-        type: Ping
         icon: "fa-solid fa-terminal"
         subtitle: "api.flos.live"
         tag: "api"
         url: "https://api.flos.live"
         target: "_blank"
       - name: "Gallery"
-        type: Ping
         icon: "fa-solid fa-image"
         subtitle: "photo.flos.live"
         tag: "photo"
         url: "https://photo.flos.live"
         target: "_blank"
       - name: "Sekai"
-        type: Ping
         icon: "fa-solid fa-music"
         subtitle: "sekai.flos.live"
         tag: "pjsk"
